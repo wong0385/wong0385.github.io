@@ -22,3 +22,7 @@ ul {
 li:nth-child(odd) {
     background: rgb(185, 195, 249);
 }
+
+a:link {
+    text-decoration: none;
+}
