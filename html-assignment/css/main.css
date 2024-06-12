@@ -4,6 +4,10 @@ body {
 }
 
 header, footer {
-    background-color: rgb(166, 238, 237);
+    background-color: rgb(131, 207, 228);
+}
+
+.site-title {
+    color: cadetblue;
 }
 
