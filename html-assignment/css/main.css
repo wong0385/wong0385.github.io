@@ -11,3 +11,14 @@ header, footer {
     color: cadetblue;
 }
 
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li:nth-child(odd) {
+    background: rgb(185, 195, 249);
+}
