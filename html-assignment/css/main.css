@@ -24,5 +24,12 @@ li:nth-child(odd) {
 }
 
 a:link {
+    background-color: peachpuff;
+    border: 2px solid coral;
+    padding: 5px 5px;
     text-decoration: none;
+}
+
+a:hover {
+    background-color: coral;
 }
