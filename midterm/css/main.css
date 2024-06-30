@@ -19,7 +19,28 @@ h1 {
     margin: 0 auto;
 }
 
-.container > figure > image {
+.container figure image {
     width: 100%;
 }
 
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav li {
+    display: inline-block;
+    width: 250px;
+    border-left: 1px solid black;
+}
+
+nav li:nth-child(1) {
+    border-left: none;
+}
