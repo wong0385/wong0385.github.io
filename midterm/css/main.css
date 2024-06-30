@@ -4,11 +4,13 @@ body {
     font-size: 16px;
 }
 
+/* image with header over */
 h1 {
     color: white;
+    font-size: 3.5rem;
     position: absolute;
     width: 100%;
-    top: 20%;
+    top: 30%;
     text-align: center;
 }
 
@@ -24,6 +26,7 @@ h1 {
     width: 100%;
 }
 
+/* style the navigation bar */
 nav ul {
     list-style-type: none;
     text-align: center;
@@ -38,7 +41,10 @@ a {
 
 nav li {
     display: inline-block;
-    width: 250px;
+    text-align: center;
+    font-size: 1.25rem;
+    width: 300px;
+    padding: 10px;
     border-left: 1px solid black;
 }
 
@@ -46,30 +52,60 @@ nav li:nth-child(1) {
     border-left: none;
 }
 
+/* style the article */
 article, section {
     padding: 6px;
 }
 
+h2 {
+    font-size: 1.5rem;
+    padding-top: 1.15rem;
+    padding-bottom: 1rem;
+}
+
+article h2:nth-child(1) {
+    font-size: 2rem;
+}
+
+/* image with text wrapped */
 .profile {
     width: 25%;
     float: left;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
 }
 
+p {
+    line-height: 1.25rem;
+    max-width: 95%;
+}
+
+/* style the list with dots inside the container */
 article li {
     list-style-type: disc;
+    list-style-position: inside;
 }
 
+/* style the form */
 form {
     border: 1px solid black;
-    padding: 12px;
+    padding: 15px 15px;
 }
 
 input, textarea {
     width: 100%;
+    margin: 10px 0 15px 0;
 }
 
-form div:nth-child(4) {
-    display: inline;
+h3 {
+    font-size: 1.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.willingness input {
+    width: 20px;
+    margin: 0 0 20px 0;
 }
 
 button {
@@ -79,8 +115,9 @@ button {
     padding: 12px;
 }
 
+/* align footer to the right */
 footer {
     display: block;
-    padding: 20px;
+    padding: 30px;
     text-align: right;
 }
