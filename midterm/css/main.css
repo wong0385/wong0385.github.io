@@ -19,8 +19,8 @@ h1 {
     margin: 0 auto;
 }
 
-.container figure image {
-    width: 100%;
+header image {
+    height: 80%;
 }
 
 nav ul {
@@ -43,4 +43,21 @@ nav li {
 
 nav li:nth-child(1) {
     border-left: none;
+}
+
+article, section {
+    padding: 8px;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+article image {
+    height: 30%;
+    float: left;
+}
+
+article li {
+    margin-left: 0px;
 }
