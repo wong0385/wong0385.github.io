@@ -4,7 +4,7 @@ body {
     font-size: 16px;
 }
 
-/* image with header over */
+/* header with heading on top of image */
 h1 {
     color: white;
     font-size: 3.5rem;
@@ -27,7 +27,7 @@ h1 {
     
 }
 
-/* style the navigation bar */
+/* navigation bar of three links with two borders inbetween */
 nav ul {
     list-style-type: none;
     text-align: center;
@@ -53,7 +53,7 @@ nav li:nth-child(1) {
     border-left: none;
 }
 
-/* style the article */
+/* style the article with the first h2 bigger in size */
 article, section {
     padding: 10px;
 }
@@ -68,7 +68,7 @@ article h2:nth-child(1) {
     font-size: 2rem;
 }
 
-/* image with text wrapped */
+/* profile image with text wrapped */
 .profile {
     width: 25%;
     float: left;
@@ -82,13 +82,13 @@ p {
     padding-bottom: 1rem;
 }
 
-/* style the list with dots inside the container */
+/* list with dots inside the container */
 article li {
     list-style-type: disc;
     list-style-position: inside;
 }
 
-/* style the form */
+/* form with a border and full width text boxes */
 form {
     border: 1px solid black;
     padding: 15px 15px;
@@ -117,7 +117,7 @@ button {
     padding: 12px;
 }
 
-/* align footer to the right */
+/* align footer to the right side of container */
 footer {
     display: block;
     padding: 30px;
