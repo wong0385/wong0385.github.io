@@ -10,7 +10,7 @@ h1 {
     font-size: 3.5rem;
     position: absolute;
     width: 100%;
-    top: 30%;
+    top: 25%;
     text-align: center;
 }
 
@@ -24,6 +24,7 @@ h1 {
 
 .top {
     width: 100%;
+    
 }
 
 /* style the navigation bar */
@@ -54,12 +55,12 @@ nav li:nth-child(1) {
 
 /* style the article */
 article, section {
-    padding: 6px;
+    padding: 10px;
 }
 
 h2 {
     font-size: 1.5rem;
-    padding-top: 1.15rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
@@ -77,7 +78,8 @@ article h2:nth-child(1) {
 
 p {
     line-height: 1.25rem;
-    max-width: 95%;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
 }
 
 /* style the list with dots inside the container */
