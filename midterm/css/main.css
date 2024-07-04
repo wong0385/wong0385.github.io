@@ -1,5 +1,5 @@
 body {
-    background-color: darkseagreen;
+    background-color: rgba(118, 154, 61, 0.804);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
@@ -7,24 +7,23 @@ body {
 /* header with heading on top of image */
 h1 {
     color: white;
-    font-size: 3.5rem;
+    font-size: 3.75rem;
     position: absolute;
     width: 100%;
-    top: 25%;
+    top: 520px;
     text-align: center;
 }
 
 .container {
-    background-color: rgb(192, 222, 192);
+    background-color: rgb(202, 221, 170);
     position: relative;
     width: 80%;
-    top: 0px;
+    bottom: 15px;
     margin: 0 auto;
 }
 
 .top {
     width: 100%;
-    
 }
 
 /* navigation bar of three links with two borders inbetween */
@@ -43,10 +42,10 @@ a {
 nav li {
     display: inline-block;
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 1.45rem;
     width: 300px;
     padding: 10px;
-    border-left: 1px solid black;
+    border-left: 1px solid gray;
 }
 
 nav li:nth-child(1) {
@@ -59,21 +58,21 @@ article, section {
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.65rem;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.9rem;
 }
 
 article h2:nth-child(1) {
-    font-size: 2rem;
+    font-size: 1.95rem;
 }
 
 /* profile image with text wrapped */
 .profile {
     width: 25%;
     float: left;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
+    padding-right: 19px;
+    padding-bottom: 19px;
 }
 
 p {
@@ -86,35 +85,38 @@ p {
 article li {
     list-style-type: disc;
     list-style-position: inside;
+    line-height: 0.9rem;
 }
 
 /* form with a border and full width text boxes */
 form {
     border: 1px solid black;
-    padding: 15px 15px;
+    padding: 32px 24px 15px 13px;
+    font-size: 1.10rem;
 }
 
 input, textarea {
     width: 100%;
+    padding: 4px;
     margin: 10px 0 15px 0;
 }
 
 h3 {
     font-size: 1.25rem;
-    padding-top: 0.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 0.3rem;
 }
 
 .willingness input {
     width: 20px;
-    margin: 0 0 20px 0;
+    margin: 30px 0 17px 0;
 }
 
 button {
+    font-size: 10px;
     text-transform: uppercase;
-    background-color: rgb(192, 222, 192);
+    background-color: rgb(202, 221, 170);
     border: 1px solid black;
-    padding: 12px;
+    padding: 10.5px;
 }
 
 /* align footer to the right side of container */
