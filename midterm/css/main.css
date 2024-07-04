@@ -10,7 +10,7 @@ h1 {
     font-size: 3.75rem;
     position: absolute;
     width: 100%;
-    top: 520px;
+    top: 525px;
     text-align: center;
 }
 
@@ -30,7 +30,6 @@ h1 {
 nav ul {
     list-style-type: none;
     text-align: center;
-    padding-bottom: 5px;
 }
 
 a {
@@ -59,12 +58,14 @@ article, section {
 
 h2 {
     font-size: 1.65rem;
-    padding-top: 1rem;
-    padding-bottom: 0.9rem;
+    padding-top: 8px;
+    padding-bottom: 14.4px;
 }
 
 article h2:nth-child(1) {
     font-size: 1.95rem;
+    padding-top: 25px;
+    padding-bottom: 18px;
 }
 
 /* wrap profile image with text */
@@ -77,8 +78,8 @@ article h2:nth-child(1) {
 
 p {
     line-height: 1.25rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
+    padding-right: 16px;
+    padding-bottom: 21px;
 }
 
 /* h2 align to the left and a list with dots inside the container */
@@ -94,9 +95,9 @@ article li {
 
 /* form with a border and full width text boxes */
 form {
+    font-size: 1.10rem;
     border: 1px solid black;
     padding: 32px 24px 15px 13px;
-    font-size: 1.10rem;
 }
 
 input, textarea {
@@ -107,7 +108,7 @@ input, textarea {
 
 h3 {
     font-size: 1.25rem;
-    padding-top: 0.3rem;
+    padding-top: 4.8px;
 }
 
 .willingness input {
