@@ -39,10 +39,10 @@ a {
 }
 
 nav li {
+    font-size: 1.45rem;
     display: inline-block;
     text-align: center;
-    font-size: 1.45rem;
-    width: 300px;
+    width: 30%;
     padding: 10px;
     border-left: 1px solid gray;
 }
