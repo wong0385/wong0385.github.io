@@ -16,8 +16,9 @@
     <link rel="stylesheet" href="css/main.css" >
 </head>
 <body>
-    <div>
-        <!-- header in black background -->
+    <div class="container">
+        <!-- header with bleeding background -->
+        <!-- arrange using flexbox with equal space in between each item -->
         <header>
             <img src="images/logo.png" alt="logo of Three Star Media" />
             <nav>
@@ -35,7 +36,9 @@
             </nav>
         </header>
         <main>
-            <section>
+            <!-- contain h1 & p & button in a box with transparency and float on the top of image -->
+            <!-- adjust image into full width of the container -->
+            <section class="intro">
                 <h1>Welcome to Three Star Media</h1>
                 <img src="images/main-banner.jpg" alt="image of our office">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo deleniti magni doloribus provident sit. Veritatis quod ducimus et doloremque libero soluta iure in. Dolor repellat ea saepe ab aliquam! Temporibus.</p>
@@ -43,52 +46,61 @@
                     <button type="send">Connect with us <i class="fa-solid fa-play"></i> </button>
                 </div>
             </section>
-            <section>
+            
+            <!-- float image on the left with bleeding background -->
+            <section class="about">
                 <h2>About Us</h2>
                 <img src="images/about-us.jpg" alt="image of our office">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique tenetur nisi repellendus corporis, magnam aspernatur perferendis eum odit ratione iste mollitia ipsa optio dolor deserunt quia reprehenderit cumque, soluta neque?</p>
                 <p>Magni laboriosam quasi laudantium sed ex, recusandae sit ullam, dolorem expedita inventore incidunt soluta eum autem consequuntur necessitatibus qui illo labore temporibus. Aliquam deserunt sequi molestiae amet doloribus quibusdam autem?</p>
             </section>
-            <section>
+            
+            <!-- blocks with background color and arrange using flexbox -->
+            <section class="services">
                 <h2>Our Services</h2>
-                <div>
+                <div class="digital">
                     <h3>Digital Transformation</h3>
                     <img src="images/digital.jpg" alt="image of digital transformation">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, eveniet. At iusto doloremque facilis vero debitis earum? Veritatis, iusto quibusdam sunt non vitae accusamus, voluptatem, natus illum cupiditate officiis ratione.</p>
                     <button type="send">Digital Plans <i class="fa-solid fa-play"></i> </button>
                 </div>
-                <div>
+                <div class="marketing">
                     <h3>Marketing</h3>
                     <img src="images/marketing.jpg" alt="image of marketing">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sunt illo? Quia, explicabo. Repellendus aliquam voluptatum quibusdam, neque perferendis fugit laboriosam libero, placeat cumque fuga temporibus maxime modi quos! Consequatur?</p>
                     <button type="send">Marketing Plans <i class="fa-solid fa-play"></i> </button>
                 </div>
-                <div>
+                <div class="video">
                     <h3>Video Production</h3>
                     <img src="images/video.jpg" alt="image of video production">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptate libero debitis, labore perspiciatis sequi earum voluptatibus quia doloremque adipisci eaque maiores temporibus deserunt id dolores iste repellendus nihil fuga!</p>
                     <button type="send">Video Plans <i class="fa-solid fa-play"></i> </button>
                 </div>
-                <div>
+                <div class="web">
                     <h3>Web Development</h3>
                     <img src="images/web.jpg" alt="image of web development">
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus alias perferendis, enim magnam excepturi sunt reiciendis atque iste necessitatibus quisquam veniam eum dolorum saepe laboriosam odit labore. Voluptates, voluptas optio?</p>
                     <button type="send">Web Plans <i class="fa-solid fa-play"></i> </button>
                 </div>
-                <div>
+                <div class="print">
                     <h3>Print</h3>
                     <img src="images/print.jpg" alt="image of print">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste alias iusto, quas veniam, in et labore, voluptatem magni hic architecto deleniti aut laborum at dicta sequi consequuntur ut? Eos, earum.</p>
                     <button type="send">Print Plans <i class="fa-solid fa-play"></i> </button>
                 </div>
             </section>
-            <section>
+
+            <!-- float h2 & p & button on the top of image -->
+            <!-- adjust image into full width of the container -->
+            <section class="vision">
                 <h2>Our Vision</h2>
                 <img src="images/vision.jpg" alt="image of paper boats">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos praesentium nostrum minus ab dignissimos consequatur officia distinctio eius, cumque sed, omnis rem dolorum ratione vitae. Quas est in modi possimus.</p>
                 <button type="send">Learn More <i class="fa-solid fa-play"></i> </button>
             </section>
-            <section>
+
+            <!-- arrange using grid  -->
+            <section class="team">
                 <h2>Our Team</h2>
                 <div>
                     <h3>John Doe</h3>
@@ -103,7 +115,8 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illo omnis. Sequi, commodi dicta unde totam repellat eos a, impedit reiciendis illum, eaque suscipit architecto error corrupti assumenda laborum asperiores.</p>
                 </div>
             </section>
-            <section>
+
+            <section class="contact">
                 <h2>Contact Us</h2>
                 <div>
                     <h3>Send us a message</h3>
@@ -123,6 +136,8 @@
                         <button type="send">Send</button>
                     </form>
                 </div>
+                
+                <!-- add border to the table and adjust to full width of the container -->
                 <div>
                     <h3>Hours of operation</h3>
                     <table>
@@ -150,7 +165,7 @@
                 </div>
             </section>
         </main>
-        <!-- footer has the same font color with header -->
+        <!-- footer with bleeding background -->
         <footer>
             <p>&copy; Copyright Three Star Media, 2020</p>
             <p>All images are taken from <a href="https://unsplash.com/">Unsplash</a> </p>
