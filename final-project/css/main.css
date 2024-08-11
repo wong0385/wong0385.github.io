@@ -1,0 +1,89 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+/* arrange using flexbox with equal space in between each item */
+header {
+    background-color: #222;
+    padding: 13px;
+}
+
+.logo {
+    background-color: #c78c06;
+    height: 125px;
+    padding-top: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #c78c06;
+    display: block;
+    padding: 15px 0 15px 0;
+    margin: 15px;
+}
+
+header nav li:first-child {
+    color: #222;
+    background-color: #c78c06;
+}
+
+header nav input{
+    width: 95%;
+    padding: 8px 0 8px 5px;
+}
+
+header nav i {
+    color: #c78c06;
+    padding: 7px;
+    border: 1px solid #c78c06;
+}
+
+header form {
+    display: flex;
+}
+
+/* footer with smaller font size and margin on the top */
+footer {
+    background-color: #222;
+    color: #c78c06;
+    padding: 13px;
+}
+
+footer p {
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #c78c06;
+}
+
+/* @media screen and (min-width: 760px) {
+    header .logo{
+        display: flex;
+        justify-content: space-between;
+    }
+} */
