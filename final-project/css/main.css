@@ -6,6 +6,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    /* padding: 13px; */
 }
 
 h1 {
@@ -14,10 +15,18 @@ h1 {
 
 h2 {
     font-size: 3rem;
+    font-weight: bold;
+    margin: 2rem 0 2rem 0;
 }
 
 h3 {
     font-size: 2rem;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
 }
 
 /* arrange using flexbox with equal space in between each item */
@@ -63,6 +72,16 @@ header nav i {
 
 header form {
     display: flex;
+}
+
+/* float image on the left with bleeding background */
+.about {
+    background-color: #ffe6ac;
+    padding: 13px;
+}
+
+.about img {
+    width: 100%;
 }
 
 /* footer with smaller font size and margin on the top */
