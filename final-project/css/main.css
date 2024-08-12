@@ -11,6 +11,9 @@ body {
 
 h1 {
     font-size: 4rem;
+    font-weight: bold;
+    line-height: 6rem;
+    margin: 2.5rem 0 2.5rem 0;
 }
 
 h2 {
@@ -27,6 +30,17 @@ p {
     font-size: 0.9rem;
     line-height: 1.4rem;
     margin-bottom: 1rem;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    border: none;
+    padding: 23px 30px 23px 30px;
+}
+
+button i {
+    margin: 15px;
 }
 
 /* arrange using flexbox with equal space in between each item */
@@ -49,14 +63,18 @@ header nav ul {
 header nav a {
     text-decoration: none;
     color: #c78c06;
-    display: block;
-    padding: 15px 0 15px 0;
-    margin: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 25px 0;
 }
 
 header nav li:first-child {
-    color: #222;
     background-color: #c78c06;
+    margin-top: 0;
+}
+
+header nav li:first-child a {
+    color: #222;
 }
 
 header nav input{
@@ -72,6 +90,31 @@ header nav i {
 
 header form {
     display: flex;
+}
+
+/* welcome */
+.intro img {
+    width: 100%;
+}
+
+.intro {
+    position: relative;
+}
+
+.intro_text {
+    color: white;
+    background-color: #222;
+    opacity: 0.7;
+    padding: 13px;
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+}
+
+.intro_text button {
+    color: #222;
+    background-color: #c78c06;
+    opacity: 1;
 }
 
 /* float image on the left with bleeding background */
