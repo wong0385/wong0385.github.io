@@ -152,6 +152,34 @@ header form {
     margin-bottom: 13px;
 }
 
+/* team */
+.team {
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+}
+
+.team img {
+    width: 100%;
+}
+
+.team h3 {
+    margin: 1.5rem 0 0.5rem 0;
+}
+
+.jd, .br {
+    background-color: #ffe6ac;
+    padding: 13px;
+    margin-bottom: 13px;
+}
+
+h4 {
+    font-weight: bold;
+    border-bottom: 2px solid #c78c06;
+    padding-bottom: 0.25rem;
+    margin-bottom: 1rem;
+}
+
 /* footer with smaller font size and margin on the top */
 footer {
     background-color: #222;
