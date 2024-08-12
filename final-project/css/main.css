@@ -24,6 +24,8 @@ h2 {
 
 h3 {
     font-size: 2rem;
+    font-weight: bold;
+    margin: 1.5rem 0 1.5rem 0;
 }
 
 p {
@@ -125,6 +127,29 @@ header form {
 
 .about img {
     width: 100%;
+}
+
+/* our services */
+.services {
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+}
+
+.services img {
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+
+.services button {
+    color: white;
+    background-color: #222;
+}
+
+.digital, .marketing, .video, .web, .print {
+    background-color: #ffe6ac;
+    padding: 13px;
+    margin-bottom: 13px;
 }
 
 /* footer with smaller font size and margin on the top */
