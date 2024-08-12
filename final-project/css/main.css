@@ -152,6 +152,34 @@ header form {
     margin-bottom: 13px;
 }
 
+/* vision */
+.vision img {
+    width: 100%;
+    height: 50%;
+}
+
+.vision {
+    position: relative;
+}
+
+.vision h2 {
+    font-size: 2rem;
+}
+
+.vision_text {
+    color: white;
+    padding: 13px;
+    position: absolute;
+    top: 10%;
+}
+
+.vision_text button {
+    color: white;
+    background-color: #222;
+    border: 1px solid #c78c06;
+    opacity: 0.9;
+}
+
 /* team */
 .team {
     display: flex;
