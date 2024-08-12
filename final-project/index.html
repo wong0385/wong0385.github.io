@@ -17,13 +17,12 @@
     <link rel="stylesheet" href="css/main.css" >
 </head>
 <body>
-    <!-- container no wider than 1200px -->
-    <div class="container">
-        <!-- mobile: nav bar flex vertically with bleeding background
-                     logo merge with home button for the same background colour-->
-        <!-- 760px hitting point: nav bar flex horizontally with equal space in between each item
-                                  logo with no background -->
-        <header>
+    <!-- mobile: nav bar flex vertically with bleeding background
+                 logo merge with home button for the same background colour-->
+    <!-- 760px hitting point: nav bar flex horizontally with equal space in between each item
+                              logo with no background -->
+    <header>
+        <div class="container">
             <div class="logo">
                 <img src="images/logo.png" alt="logo of Three Star Media" />
             </div>
@@ -40,98 +39,125 @@
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </form>
             </nav>
-        </header>
-        <main>
-            <!-- mobile: image crop its width
-                         text & button contain in a box with transparency and float on the top of image -->
-            <!-- 760px hitting point: image adjust into full width of the container and crop its height -->
-            <section class="intro">
-                <img src="images/main-banner.jpg" alt="image of our office">
-                <div class="intro_text">
+        </dix>
+    </header>
+
+    <main>
+        <!-- mobile: image crop its width
+                     text & button contain in a box with transparency and float on the top of image -->
+        <!-- 760px hitting point: image adjust into full width of the container and crop its height -->
+        <section class="intro">
+            <img src="images/main-banner.jpg" alt="image of our office">
+            <div class="intro_text">
+                <div class="container">
                     <h1>Welcome to Three Star Media</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo deleniti magni doloribus provident sit. Veritatis quod ducimus et doloremque libero soluta iure in. Dolor repellat ea saepe ab aliquam! Temporibus.</p>
                     <button type="button">Connect with us <i class="fa-solid fa-play"></i> </button>
                 </div>
-            </section>
+            </div>
+        </section>
             
-            <!-- mobile: image place before text with bleeding background -->
-            <!-- 760px hitting point: image float on the left -->
-            <section class="about">
+        <!-- mobile: image place before text with bleeding background -->
+        <!-- 760px hitting point: image float on the left -->
+        <section class="about">
+            <div class="container">
                 <img src="images/about-us.jpg" alt="image of our office">
                 <h2>About Us</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique tenetur nisi repellendus corporis, magnam aspernatur perferendis eum odit ratione iste mollitia ipsa optio dolor deserunt quia reprehenderit cumque, soluta neque?</p>
                 <p>Magni laboriosam quasi laudantium sed ex, recusandae sit ullam, dolorem expedita inventore incidunt soluta eum autem consequuntur necessitatibus qui illo labore temporibus. Aliquam deserunt sequi molestiae amet doloribus quibusdam autem?</p>
-            </section>
+            </div>
+        </section>
             
-            <!-- mobile: blocks in background color and add margin in the bottom -->
-            <!-- 760px hitting ppint: blocks flex and wrap into two rows and add margin in between
-                                      buttons adjust to full width of blocks -->
-            <section class="services">
+        <!-- mobile: blocks in background color and add margin in the bottom -->
+        <!-- 760px hitting point: blocks flex and wrap into two rows and add margin in between
+                                  buttons adjust to full width of blocks -->
+        <section class="services">
+            <div class="container">
                 <h2>Our Services</h2>
-                <div class="digital">
+                <div>
                     <img src="images/digital.jpg" alt="image of digital transformation">
-                    <h3>Digital Transformation</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, eveniet. At iusto doloremque facilis vero debitis earum? Veritatis, iusto quibusdam sunt non vitae accusamus, voluptatem, natus illum cupiditate officiis ratione.</p>
-                    <button type="button">Digital Plans <i class="fa-solid fa-play"></i> </button>
+                    <div class="digital">
+                        <h3>Digital Transformation</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, eveniet. At iusto doloremque facilis vero debitis earum? Veritatis, iusto quibusdam sunt non vitae accusamus, voluptatem, natus illum cupiditate officiis ratione.</p>
+                        <button type="button">Digital Plans <i class="fa-solid fa-play"></i> </button>
+                    </div>
                 </div>
-                <div class="marketing">
+                <div>
                     <img src="images/marketing.jpg" alt="image of marketing">
-                    <h3>Marketing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sunt illo? Quia, explicabo. Repellendus aliquam voluptatum quibusdam, neque perferendis fugit laboriosam libero, placeat cumque fuga temporibus maxime modi quos! Consequatur?</p>
-                    <button type="button">Marketing Plans <i class="fa-solid fa-play"></i> </button>
+                    <div class="marketing">
+                        <h3>Marketing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, sunt illo? Quia, explicabo. Repellendus aliquam voluptatum quibusdam, neque perferendis fugit laboriosam libero, placeat cumque fuga temporibus maxime modi quos! Consequatur?</p>
+                        <button type="button">Marketing Plans <i class="fa-solid fa-play"></i> </button>
+                    </div>
                 </div>
-                <div class="video">
+                <div>
                     <img src="images/video.jpg" alt="image of video production">
-                    <h3>Video Production</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptate libero debitis, labore perspiciatis sequi earum voluptatibus quia doloremque adipisci eaque maiores temporibus deserunt id dolores iste repellendus nihil fuga!</p>
-                    <button type="button">Video Plans <i class="fa-solid fa-play"></i> </button>
+                    <div class="video">
+                        <h3>Video Production</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptate libero debitis, labore perspiciatis sequi earum voluptatibus quia doloremque adipisci eaque maiores temporibus deserunt id dolores iste repellendus nihil fuga!</p>
+                        <button type="button">Video Plans <i class="fa-solid fa-play"></i> </button>
+                    </div>
                 </div>
-                <div class="web">
+                <div>
                     <img src="images/web.jpg" alt="image of web development">
-                    <h3>Web Development</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus alias perferendis, enim magnam excepturi sunt reiciendis atque iste necessitatibus quisquam veniam eum dolorum saepe laboriosam odit labore. Voluptates, voluptas optio?</p>
-                    <button type="button">Web Plans <i class="fa-solid fa-play"></i> </button>
+                    <div class="web">
+                        <h3>Web Development</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus alias perferendis, enim magnam excepturi sunt reiciendis atque iste necessitatibus quisquam veniam eum dolorum saepe laboriosam odit labore. Voluptates, voluptas optio?</p>
+                        <button type="button">Web Plans <i class="fa-solid fa-play"></i> </button>
+                    </div>
                 </div>
-                <div class="print">
+                <div>
                     <img src="images/print.jpg" alt="image of print">
-                    <h3>Print</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste alias iusto, quas veniam, in et labore, voluptatem magni hic architecto deleniti aut laborum at dicta sequi consequuntur ut? Eos, earum.</p>
-                    <button type="button">Print Plans <i class="fa-solid fa-play"></i> </button>
+                    <div class="print">
+                        <h3>Print</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste alias iusto, quas veniam, in et labore, voluptatem magni hic architecto deleniti aut laborum at dicta sequi consequuntur ut? Eos, earum.</p>
+                        <button type="button">Print Plans <i class="fa-solid fa-play"></i> </button>
+                    </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!-- mobile: image adjust into full width of the container and crop its height 
-                         text & button float on the top of image -->
-            <!-- 760px hitting point: image adjust into full width of the container and crop its height -->
-            <section class="vision">
-                <img src="images/vision.jpg" alt="image of paper boats">
+        <!-- mobile: image adjust into full width of the container and crop its height 
+                     text & button float on the top of image -->
+        <!-- 760px hitting point: image adjust into full width of the container and crop its height -->
+        <section class="vision">
+            <img src="images/vision.jpg" alt="image of paper boats">
+            <div class="container">
                 <div class="vision_text">
                     <h2>Our Vision</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos praesentium nostrum minus ab dignissimos consequatur officia distinctio eius, cumque sed, omnis rem dolorum ratione vitae. Quas est in modi possimus.</p>
                     <button type="button">Learn More <i class="fa-solid fa-play"></i> </button>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!-- mobile: blocks in background color and add margin in the bottom -->
-            <!-- 760px hitting ppint: arrange images and blocks in grid with no margin -->
-            <section class="team">
+        <!-- mobile: blocks in background color and add margin in the bottom -->
+        <!-- 760px hitting ppint: arrange images and blocks in grid with no margin -->
+        <section class="team">
+            <div class="container">
                 <h2>Our Team</h2>
-                <div class="jd">
+                <div>
                     <img src="images/john.jpg" alt="image of John Doe">
-                    <h3>John Doe</h3>
-                    <h4>CEO and Co-owner</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque suscipit quas facilis error quisquam fugiat ducimus unde repellendus. Praesentium velit nihil ducimus tempora voluptatem fugiat aperiam at ea mollitia quasi?</p>
+                    <div class="jd">
+                        <h3>John Doe</h3>
+                        <h4>CEO and Co-owner</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque suscipit quas facilis error quisquam fugiat ducimus unde repellendus. Praesentium velit nihil ducimus tempora voluptatem fugiat aperiam at ea mollitia quasi?</p>
+                    </div>
                 </div>
-                <div class="br">
+                <div>
                     <img src="images/bob.jpg" alt="image of Bob Rite">
-                    <h3>Bob Rite</h3>
-                    <h4>CFO and Co-owner</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illo omnis. Sequi, commodi dicta unde totam repellat eos a, impedit reiciendis illum, eaque suscipit architecto error corrupti assumenda laborum asperiores.</p>
+                    <div class="br">
+                        <h3>Bob Rite</h3>
+                        <h4>CFO and Co-owner</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illo omnis. Sequi, commodi dicta unde totam repellat eos a, impedit reiciendis illum, eaque suscipit architecto error corrupti assumenda laborum asperiores.</p>
+                    </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!-- 760px hitting point: arrange using grid areas and add margin in between -->
-            <section>
+        <!-- 760px hitting point: arrange using grid areas and add margin in between -->
+        <section class="contact">
+            <div class="container">
                 <h2>Contact Us</h2>
                 <!-- mobile: form in full width of the container -->
                 <div class="inquiry">
@@ -152,7 +178,7 @@
                         <button type="button">Send</button>
                     </form>
                 </div>
-                
+
                 <!-- table add border and adjust to full width of the container -->
                 <div class="opening_hours">
                     <h3>Hours of operation</h3>
@@ -175,21 +201,23 @@
                         </tbody>
                     </table>
                 </div>
-                
+
                 <!-- mobile: map in full width of the container and adjust its height -->
                 <!-- 760px hitting point: place next to .inquiry in grid areas -->
                 <div class="location">
                     <h3>Location</h3>
                     <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7132.29220410172!2d-75.75600265186681!3d45.349082034807694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1722346269046!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-            </section>
-        </main>
+            </div>
+        </section>
+    </main>
         
-        <!-- footer with smaller font size, margin on the top, and bleeding background -->
-        <footer>
+    <!-- footer with smaller font size, margin on the top, and bleeding background -->
+    <footer>
+        <div class="container">
             <p>&copy; Copyright Three Star Media, 2020</p>
             <p>All images are taken from <a href="https://unsplash.com/">Unsplash</a> </p>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </body>
 </html>
