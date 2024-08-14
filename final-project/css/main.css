@@ -46,8 +46,8 @@ button i {
     margin: 15px;
 }
 
-/* logo merge with home button for the same background colour
-   nav bar flex vertically with bleeding background */
+/* nav bar place in one column with bleeding background
+   logo merge with home button for the same background colour */
 header {
     background-color: #222;
 }
@@ -96,8 +96,7 @@ header form {
     align-items: baseline;
 }
 
-/* image crop its width
-   text & button contain in a box with transparency and float on the top of image */
+/* text in white and contain in a box with transparent background */
 .intro {
     background-image: url("../images/main-banner.jpg");
     background-repeat: no-repeat;
@@ -129,7 +128,8 @@ header form {
     width: 100%;
 }
 
-/* blocks in background color and add margin in the bottom */
+/* images and text combine into blocks
+   blocks in background color and add margin at the bottom */
 .services img {
     width: 100%;
 }
@@ -150,8 +150,7 @@ header form {
     flex-direction: column;
 }
 
-/* image adjust into full width of the container and crop its height 
-   text & button float on the top of image */
+/* all texts in white with h2 in smaller font size and button in transparent background */
 .vision {
     background-image: url("../images/vision.jpg");
     background-repeat: no-repeat;
@@ -173,7 +172,8 @@ header form {
     border: 1px solid #c78c06;
 }
 
-/* blocks in background color and add margin in the bottom */
+/* images and text combine into blocks
+   blocks in background color and add margin at the bottom */
 .team img {
     width: 100%;
 }
@@ -236,7 +236,7 @@ iframe {
     height: 500px;
 }
 
-/* footer with margin on the top and bleeding background */
+/* footer with bleeding background and add margin on the top */
 footer {
     background-color: #222;
     color: #c78c06;
@@ -251,8 +251,8 @@ footer a {
 }
 
 @media screen and (min-width: 760px) {
-    /* nav bar flex horizontally with equal space in between each item
-       logo with no background */
+    /* nav bar place in one row with equal space in between each item
+       logo with no background colour */
     header {
         height: 120px;
         padding: 13px 0;
@@ -285,11 +285,9 @@ footer a {
         grid-template-columns: 1fr 7fr;
     }
 
-    /* image adjust into full width of the container and crop its height
-       limit the width of transparent box */
+    /* adjust the size of background image */
     .intro {
         background-position: 70%;
-        padding: 30px 40px;
     }
 
     /* image float on the left */
@@ -307,7 +305,7 @@ footer a {
         margin: 1rem 0 2rem 0;
     }
 
-    /* blocks flex and wrap into two rows and add margin in between
+    /* blocks arrange in two rows and add margin in between
        buttons adjust to full width of blocks */
     .row1 {
         display: flex;
@@ -337,7 +335,7 @@ footer a {
         width: 100%;
     }
 
-    /* arrange images and blocks in grid with no margin */
+    /* blocks arrange in grid with no margin */
     .m1, .m2 {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -373,6 +371,7 @@ footer a {
         grid-row: 2 / 3;
     }
 
+    /* place next to .inquiry in grid areas */
     .location {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
